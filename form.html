@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Formulario</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+    <script src='main.js'></script>
+</head>
+<body>
+    <form action="http://jkorpela.fi/cgi-bin/echo.cgi">
+        <label for="name">Nombre Completo</label>
+        <input type="text" id="name" name="name" required autofocus>
+        <label for="birth">Fecha de Nacimiento:</label>
+        <input type="date" id="birth" name="birth" required>
+        <label for="email">email</label>
+        <input type="email" id="email" name="email" required placeholder="ejemplo@gmail.com">
+        
+        <input type="submit" id="enviar" name="" value="ENVIAR">
+
+    </form>
+</body>
+</html>
